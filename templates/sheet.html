@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <h1>Registered</h1>
+    <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Name</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Region</th>
+      <th scope="col">Comment</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for contact in contacts %}
+    <tr>
+      <th scope="row"></th>
+      <td>{{ contact[0] }}</td>
+      <td>{{ contact[1] }}</td>
+      <td>{{ contact[2] }}</td>
+      <td>{{ contact[4] }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
