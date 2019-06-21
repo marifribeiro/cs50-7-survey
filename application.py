@@ -1,5 +1,6 @@
 import cs50
 import csv
+import os
 
 from flask import Flask, jsonify, redirect, render_template, request
 
@@ -59,3 +60,7 @@ def get_sheet():
         reader = csv.reader(file)
         contacts = list(reader)
     return render_template("sheet.html", contacts=contacts)
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
