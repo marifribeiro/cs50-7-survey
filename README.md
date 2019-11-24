@@ -1,6 +1,6 @@
-#CS50's Survey
+# CS50's Survey
 
-##Introduction
+## Introduction
 
 This application was one of the 7th week's exercises of Harvard's CS50 - Introduction to Computer Science online course.
 You can learn more about CS50 at [Harvard's CS50](https://online-learning.harvard.edu/course/cs50-introduction-computer-science).
@@ -11,13 +11,13 @@ The exercise proposes that we:
 * The results are showed in a table a la Google Sheets
 
 
-##How was this made
+## How was this made
 This application uses Python 3, HTML and styling with Bootstrap.
 
-##Access it
+## Access it
 My application is available at [cs50-7-survey.herokuapp](http://cs50-7-survey.herokuapp.com/form).
 
-##Run on your own
+## Run on your own
 You will need [Python](https://www.python.org/downloads/) and [Flask](https://flask.palletsprojects.com/en/1.1.x/installation/) installed on your computer to run this application.
 
 Start by installing [Python 2.7.9](https://www.python.org/downloads/release/python-2717/) or above.
