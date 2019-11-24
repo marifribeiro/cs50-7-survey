@@ -12,7 +12,7 @@ The exercise proposes that we:
 
 
 ## Created with
-This application uses Python 3, HTML and styling with Bootstrap.
+This application uses Python, HTML and styling with Bootstrap.
 
 ## Access
 My application is available at [cs50-7-survey.herokuapp](http://cs50-7-survey.herokuapp.com/form).
@@ -20,31 +20,25 @@ My application is available at [cs50-7-survey.herokuapp](http://cs50-7-survey.he
 ## Run
 You will need [Python](https://www.python.org/downloads/) and [Flask](https://flask.palletsprojects.com/en/1.1.x/installation/) installed on your computer to run this application.
 
-Start by installing [Python 2.7.9](https://www.python.org/downloads/release/python-2717/) or above.
+Start by installing [Python 2.7.9](https://www.python.org/downloads/release/python-2717/) or higher.
 Once you have Python, run the following commands:
 
 To install this project's dependecies, run:
-
 `pip3 install -r requirements.txt`
 
 Install Flask:
-
 `sudo apt install python3-flask`
 
 Define the correct file as the default Flask application:
 
 Unix Bash (Linux, Mac, etc.):
-
 `export FLASK_APP=hello`
 
 Windows CMD:
-
 `set FLASK_APP=hello`
 
 Windows PowerShell:
-
 `$env:FLASK_APP = "hello"`
 
 Run Flask and you're good to go!
-
 `flask run`
