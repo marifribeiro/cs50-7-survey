@@ -11,13 +11,13 @@ The exercise proposes that we:
 * The results are showed in a table a la Google Sheets
 
 
-## How was this made
+## Created with
 This application uses Python 3, HTML and styling with Bootstrap.
 
-## Access it
+## Access
 My application is available at [cs50-7-survey.herokuapp](http://cs50-7-survey.herokuapp.com/form).
 
-## Run on your own
+## Run
 You will need [Python](https://www.python.org/downloads/) and [Flask](https://flask.palletsprojects.com/en/1.1.x/installation/) installed on your computer to run this application.
 
 Start by installing [Python 2.7.9](https://www.python.org/downloads/release/python-2717/) or above.
