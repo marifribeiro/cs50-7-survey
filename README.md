@@ -24,21 +24,27 @@ Start by installing [Python 2.7.9](https://www.python.org/downloads/release/pyth
 Once you have Python, run the following commands:
 
 To install this project's dependecies, run:
+
 `pip3 install -r requirements.txt`
 
 Install Flask:
+
 `sudo apt install python3-flask`
 
 Define the correct file as the default Flask application:
 
 Unix Bash (Linux, Mac, etc.):
+
 `export FLASK_APP=hello`
 
 Windows CMD:
+
 `set FLASK_APP=hello`
 
 Windows PowerShell:
+
 `$env:FLASK_APP = "hello"`
 
 Run Flask and you're good to go!
+
 `flask run`
